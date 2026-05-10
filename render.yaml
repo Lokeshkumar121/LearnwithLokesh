@@ -1,5 +1,6 @@
 services:
-  - type: static
+  - type: web
+    env: static
     name: lokeshnotes
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
