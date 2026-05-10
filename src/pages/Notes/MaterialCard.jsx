@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
-const MaterialCard = ({ item, index }) => {
+
+const MaterialCard = ({ item, index, onView }) => {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -35,10 +36,23 @@ const MaterialCard = ({ item, index }) => {
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
             {item.topics} Topics
           </span>
-          <button className="flex items-center gap-1.5 text-[12px] font-semibold text-[#006DFF] sm:text-[13px]">
-            View
-            <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
-          </button>
+            {/* MERN = page redirect, Java = page redirect, Interview = modal */}
+          {item.title === "MERN Stack Notes" ? (
+            <a href="/mern-stack" className="flex items-center gap-1.5 text-[12px] font-semibold text-[#006DFF] sm:text-[13px]">
+              View All
+              <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </a>
+          ) : item.title === "Java & DSA Notes" ? (
+            <a href="/java-stack" className="flex items-center gap-1.5 text-[12px] font-semibold text-[#006DFF] sm:text-[13px]">
+              View All
+              <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </a>
+          ) : (
+            <button onClick={() => onView(item)} className="flex items-center gap-1.5 text-[12px] font-semibold text-[#006DFF] sm:text-[13px]">
+              View
+              <svg className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </button>
+          )}
         </div>
       </div>
     </div>
