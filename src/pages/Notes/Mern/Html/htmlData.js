@@ -3,7 +3,7 @@ const htmlData = Array.from({ length: 76 }, (_, index) => ({
   topic: "HTML",
   title: `HTML Topic ${index + 1}`,
   desc: "Advanced HTML concepts and real-world implementation techniques.",
-  img: `../../../../../src/assets/ph${index + 1}.png`,
+  img: `/images/ph${index + 1}.png`,
 }));
 
 export default htmlData;

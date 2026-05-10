@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import Myimg from "../../../src/assets/Myimg.png"
+import Myimg from "/Images/Html/Myimg.png"
 const HErosec = () => {
      const heroRef = useRef(null);
      const [heroVis, setHeroVis] = useState(false);

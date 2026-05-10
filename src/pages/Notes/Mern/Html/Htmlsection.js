@@ -7,11 +7,11 @@ const htmlSections = [
     description:
       "Introduction to HTML, tags, webpage structure, and basic HTML elements.",
     images: [
-      "../../../../../src/assets/ph1.png",
-      "../../../../../src/assets/ph2.png",
-      "../../../../../src/assets/ph3.png",
-      "../../../../../src/assets/ph4.png",
-      "../../../../../src/assets/ph5.png",
+      "/Images/Html/ph1.png",
+      "/Images/Html/ph2.png",
+      "/Images/Html/ph3.png",
+      "/Images/Html/ph4.png",
+      "/Images/Html/ph5.png",
     ],
   },
 
@@ -20,7 +20,7 @@ const htmlSections = [
     title: "Print Hello World",
     description:
       "HTML files run on local machines. Learn how to print text on webpages.",
-    images: ["../../../../../src/assets/ph6.png"],
+    images: ["/Images/Html/ph6.png"],
   },
 
   {
@@ -28,7 +28,7 @@ const htmlSections = [
     title: "Paragraph Tag",
     description:
       "Learn how to create paragraphs using the paragraph tag in HTML.",
-    images: ["../../../../../src/assets/ph7.png"],
+    images: ["/Images/Html/ph7.png"],
   },
 
   {
@@ -37,8 +37,8 @@ const htmlSections = [
     description:
       "Learn about heading tags from h1 to h6 and their importance.",
     images: [
-      "../../../../../src/assets/ph8.png",
-      "../../../../../src/assets/ph9.png",
+      "/Images/Html/ph8.png",
+      "/Images/Html/ph9.png",
     ],
   },
 
@@ -47,7 +47,7 @@ const htmlSections = [
     title: "What is Boilerplate?",
     description:
       "Boilerplate is the basic HTML structure required for every webpage.",
-    images: ["../../../../../src/assets/ph10.png"],
+    images: ["/Images/Html/ph10.png"],
   },
 
   {
@@ -55,7 +55,8 @@ const htmlSections = [
     title: "Boilerplate Code",
     description:
       "Understand the complete structure of an HTML document.",
-    images: ["../../../../../src/assets/ph11.png"],
+    images: ["/Images/Html/ph11.png"],
+
     code: `<!DOCTYPE html>
 <html>
 <head>
@@ -73,11 +74,11 @@ const htmlSections = [
     description:
       "Ordered lists, unordered lists, and definition lists in HTML.",
     images: [
-      "../../../../../src/assets/ph12.png",
-      "../../../../../src/assets/ph13.png",
-      "../../../../../src/assets/ph14.png",
-      "../../../../../src/assets/ph16.png",
-      "../../../../../src/assets/ph17.png",
+      "/Images/Html/ph12.png",
+      "/Images/Html/ph13.png",
+      "/Images/Html/ph14.png",
+      "/Images/Html/ph16.png",
+      "/Images/Html/ph17.png",
     ],
   },
 
@@ -86,7 +87,7 @@ const htmlSections = [
     title: "HTML Attributes",
     description:
       "Attributes provide additional information about HTML elements.",
-    images: ["../../../../../src/assets/ph15.png"],
+    images: ["/Images/Html/ph15.png"],
   },
 
   {
@@ -95,9 +96,9 @@ const htmlSections = [
     description:
       "Learn how to create hyperlinks using anchor tags.",
     images: [
-      "../../../../../src/assets/ph18.png",
-      "../../../../../src/assets/ph19.png",
-      "../../../../../src/assets/ph20.png",
+      "/Images/Html/ph18.png",
+      "/Images/Html/ph19.png",
+      "/Images/Html/ph20.png",
     ],
   },
 
@@ -107,8 +108,8 @@ const htmlSections = [
     description:
       "Relative paths and absolute paths used in HTML documents.",
     images: [
-      "../../../../../src/assets/ph21.png",
-      "../../../../../src/assets/ph22.png",
+      "/Images/Html/ph21.png",
+      "/Images/Html/ph22.png",
     ],
   },
 
@@ -118,8 +119,8 @@ const htmlSections = [
     description:
       "Learn how to display images using the img tag.",
     images: [
-      "../../../../../src/assets/ph23.png",
-      "../../../../../src/assets/ph24.png",
+      "/Images/Html/ph23.png",
+      "/Images/Html/ph24.png",
     ],
   },
 
@@ -128,7 +129,7 @@ const htmlSections = [
     title: "Practice Question 2",
     description:
       "Practice questions related to image and path elements.",
-    images: ["../../../../../src/assets/ph25.png"],
+    images: ["/Images/Html/ph25.png"],
   },
 
   {
@@ -136,7 +137,7 @@ const htmlSections = [
     title: "BR Tag",
     description:
       "Line breaks using the br tag.",
-    images: ["../../../../../src/assets/ph26.png"],
+    images: ["/Images/Html/ph26.png"],
   },
 
   {
@@ -144,7 +145,7 @@ const htmlSections = [
     title: "Text Formatting Tags",
     description:
       "Bold, italic, underline, and other formatting tags.",
-    images: ["../../../../../src/assets/ph27.png"],
+    images: ["/Images/Html/ph27.png"],
   },
 
   {
@@ -152,7 +153,7 @@ const htmlSections = [
     title: "Comments in HTML",
     description:
       "Learn how to write comments inside HTML code.",
-    images: ["../../../../../src/assets/ph28.png"],
+    images: ["/Images/Html/ph28.png"],
   },
 
   {
@@ -160,7 +161,7 @@ const htmlSections = [
     title: "Is HTML Case Sensitive?",
     description:
       "Understanding case sensitivity in HTML.",
-    images: ["../../../../../src/assets/ph29.png"],
+    images: ["/Images/Html/ph29.png"],
   },
 
   {
@@ -168,7 +169,7 @@ const htmlSections = [
     title: "Practice Question 3",
     description:
       "Practice question related to HTML basics.",
-    images: ["../../../../../src/assets/ph30.png"],
+    images: ["/Images/Html/ph30.png"],
   },
 
   {
@@ -177,9 +178,9 @@ const htmlSections = [
     description:
       "Difference between inline and block-level elements.",
     images: [
-      "../../../../../src/assets/ph31.png",
-      "../../../../../src/assets/ph32.png",
-      "../../../../../src/assets/ph33.png",
+      "/Images/Html/ph31.png",
+      "/Images/Html/ph32.png",
+      "/Images/Html/ph33.png",
     ],
   },
 
@@ -188,7 +189,7 @@ const htmlSections = [
     title: "Div Element",
     description:
       "Container element used for grouping HTML content.",
-    images: ["../../../../../src/assets/ph34.png"],
+    images: ["/Images/Html/ph34.png"],
   },
 
   {
@@ -196,7 +197,7 @@ const htmlSections = [
     title: "Span Element",
     description:
       "Inline container element used for styling text.",
-    images: ["../../../../../src/assets/ph35.png"],
+    images: ["/Images/Html/ph35.png"],
   },
 
   {
@@ -204,7 +205,7 @@ const htmlSections = [
     title: "HR Tag",
     description:
       "Horizontal line element in HTML.",
-    images: ["../../../../../src/assets/ph36.png"],
+    images: ["/Images/Html/ph36.png"],
   },
 
   {
@@ -212,7 +213,7 @@ const htmlSections = [
     title: "Sub and Sup Tags",
     description:
       "Subscript and superscript tags in HTML.",
-    images: ["../../../../../src/assets/ph37.png"],
+    images: ["/Images/Html/ph37.png"],
   },
 
   {
@@ -220,7 +221,7 @@ const htmlSections = [
     title: "Practice Question 4",
     description:
       "Practice question for formatting tags.",
-    images: ["../../../../../src/assets/ph38.png"],
+    images: ["/Images/Html/ph38.png"],
   },
 
   {
@@ -229,11 +230,11 @@ const htmlSections = [
     description:
       "Semantic tags improve readability and SEO.",
     images: [
-      "../../../../../src/assets/ph39.png",
-      "../../../../../src/assets/ph40.png",
-      "../../../../../src/assets/ph41.png",
-      "../../../../../src/assets/ph42.png",
-      "../../../../../src/assets/ph43.png",
+      "/Images/Html/ph39.png",
+      "/Images/Html/ph40.png",
+      "/Images/Html/ph41.png",
+      "/Images/Html/ph42.png",
+      "/Images/Html/ph43.png",
     ],
   },
 
@@ -242,7 +243,7 @@ const htmlSections = [
     title: "Practice Question 5",
     description:
       "Practice question related to semantic tags.",
-    images: ["../../../../../src/assets/ph44.png"],
+    images: ["/Images/Html/ph44.png"],
   },
 
   {
@@ -251,8 +252,8 @@ const htmlSections = [
     description:
       "Special characters and entities used in HTML.",
     images: [
-      "../../../../../src/assets/ph45.png",
-      "../../../../../src/assets/ph46.png",
+      "/Images/Html/ph45.png",
+      "/Images/Html/ph46.png",
     ],
   },
 
@@ -261,7 +262,7 @@ const htmlSections = [
     title: "Practice Question 6",
     description:
       "Practice questions on HTML entities.",
-    images: ["../../../../../src/assets/ph47.png"],
+    images: ["/Images/Html/ph47.png"],
   },
 
   {
@@ -270,9 +271,9 @@ const htmlSections = [
     description:
       "Introduction to HTML5 features and APIs.",
     images: [
-      "../../../../../src/assets/ph48.png",
-      "../../../../../src/assets/ph49.png",
-      "../../../../../src/assets/ph50.png",
+      "/Images/Html/ph48.png",
+      "/Images/Html/ph49.png",
+      "/Images/Html/ph50.png",
     ],
   },
 
@@ -282,12 +283,12 @@ const htmlSections = [
     description:
       "Learn table structure, rows, columns, and table formatting.",
     images: [
-      "../../../../../src/assets/ph51.png",
-      "../../../../../src/assets/ph52.png",
-      "../../../../../src/assets/ph53.png",
-      "../../../../../src/assets/ph54.png",
-      "../../../../../src/assets/ph55.png",
-      "../../../../../src/assets/ph56.png",
+      "/Images/Html/ph51.png",
+      "/Images/Html/ph52.png",
+      "/Images/Html/ph53.png",
+      "/Images/Html/ph54.png",
+      "/Images/Html/ph55.png",
+      "/Images/Html/ph56.png",
     ],
   },
 
@@ -296,7 +297,7 @@ const htmlSections = [
     title: "Practice Question 7",
     description:
       "Practice questions related to tables.",
-    images: ["../../../../../src/assets/ph57.png"],
+    images: ["/Images/Html/ph57.png"],
   },
 
   {
@@ -305,39 +306,41 @@ const htmlSections = [
     description:
       "Learn forms, input fields, buttons, labels, and validations.",
     images: [
-      "../../../../../src/assets/ph58.png",
-      "../../../../../src/assets/ph59.png",
-      "../../../../../src/assets/ph60.png",
-      "../../../../../src/assets/ph61.png",
-      "../../../../../src/assets/ph62.png",
-      "../../../../../src/assets/ph63.png",
-      "../../../../../src/assets/ph64.png",
-      "../../../../../src/assets/ph65.png",
-      "../../../../../src/assets/ph66.png",
-      "../../../../../src/assets/ph67.png",
-      "../../../../../src/assets/ph68.png",
-      "../../../../../src/assets/ph69.png",
-      "../../../../../src/assets/ph70.png",
-      "../../../../../src/assets/ph71.png",
-      "../../../../../src/assets/ph72.png",
-      "../../../../../src/assets/ph73.png",
-      "../../../../../src/assets/ph74.png",
-      "../../../../../src/assets/ph75.png",
-      "../../../../../src/assets/ph76.png",
+      "/Images/Html/ph58.png",
+      "/Images/Html/ph59.png",
+      "/Images/Html/ph60.png",
+      "/Images/Html/ph61.png",
+      "/Images/Html/ph62.png",
+      "/Images/Html/ph63.png",
+      "/Images/Html/ph64.png",
+      "/Images/Html/ph65.png",
+      "/Images/Html/ph66.png",
+      "/Images/Html/ph67.png",
+      "/Images/Html/ph68.png",
+      "/Images/Html/ph69.png",
+      "/Images/Html/ph70.png",
+      "/Images/Html/ph71.png",
+      "/Images/Html/ph72.png",
+      "/Images/Html/ph73.png",
+      "/Images/Html/ph74.png",
+      "/Images/Html/ph75.png",
+      "/Images/Html/ph76.png",
     ],
   },
+
   {
-  id: "finish",
-  title: "🎉 Congratulations! 🎉",
-  description:
-    "You've completed the HTML journey. You’re now ready to build beautiful web pages and step into the world of web development.",
+    id: "finish",
+    title: "🎉 Congratulations! 🎉",
 
-  isFinish: true,
+    description:
+      "You've completed the HTML journey. You’re now ready to build beautiful web pages and step into the world of web development.",
 
-  buttonText: "Start CSS Now 🚀",
+    isFinish: true,
 
-  buttonLink: "/studymaterial",
-},
+    buttonText: "Start CSS Now 🚀",
+
+    buttonLink: "/studymaterial",
+  },
 ];
 
 export default htmlSections;
