@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import FeatureCard from "./FeatureCard.jsx";
-import features from "./Features";
+import features from "./Features.jsx";
 
 const Feature = () => {
   const headRef = useRef(null);
