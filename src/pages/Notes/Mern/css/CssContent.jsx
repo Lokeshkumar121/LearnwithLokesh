@@ -1,11 +1,12 @@
 import { useRef, useState, useEffect } from "react";
-import htmlSections from "./Htmlsection";
+import cssSection from "./CssSection";
 import ResourcesSection from "./ResourcesSection";
-import { topics  } from "./topics";
-const HtmlContent = () => {
+import { topics } from "./topics";
+const CssContent = () => {
     const contentRef = useRef(null);
     const [scrollDir, setScrollDir] = useState("down");
     const [activeSection, setActiveSection] = useState("intro");
+
 
 
     useEffect(() => {
@@ -80,7 +81,7 @@ const HtmlContent = () => {
                 style={{ maxHeight: "calc(100vh - 140px)", overflowY: "auto" }}
             >
 
-                {htmlSections.map((section) => (
+                {cssSection.map((section) => (
   <section
     key={section.id}
     data-section={section.id}
@@ -154,9 +155,13 @@ const HtmlContent = () => {
             </pre>
           </div>
         )}
+       
       </>
     )}
+    
   </section>
+  
+  
 ))}
  <ResourcesSection />
             </div>
@@ -173,9 +178,10 @@ const HtmlContent = () => {
                     <svg className="h-5 w-5 sm:h-6 sm:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 10l7-7m0 0l7 7m-7-7v10" /></svg>
                 )}
             </button>
-           
+            
+
         </div>
     );
 };
 
-export default HtmlContent;
+export default CssContent;

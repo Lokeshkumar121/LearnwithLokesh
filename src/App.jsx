@@ -8,6 +8,8 @@ import NotFound from "./pages/Notfound/NotFound";
 import MernStack from "./pages/Notes/Mern/Mern";
 import JavaStack from "./pages/Notes/Java/Java";
 import Html from "./pages/Notes/Mern/Html/Html";
+import Css from "./pages/Notes/Mern/css/Css";
+import Js from "./pages/Notes/Mern/Js/Js"
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
          <Route path="/mern-stack" element={<MernStack />} />
          <Route path="/java-stack" element={<JavaStack />} />
          <Route path="/html-notes" element={<Html />} />
+         <Route path="/css-notes" element={<Css />} />
+         <Route path="/js-notes" element={<Js />} />
       </Routes>
       <Footer />
     </Router>
