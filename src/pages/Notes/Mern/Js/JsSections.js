@@ -1,29 +1,26 @@
 // src/data/htmlSections.js
+const generateImages = (folder, total) =>
+  Array.from(
+    { length: total },
+    (_, index) => `/Images/${folder}/ph${index + 1}.png`
+  );
 
 const JsSections = [
   {
     id: "intro",
-    title: "Study of JavaScript ",
-    description:
-      "JavaScript is a high-level, interpreted programming language used to make webpages interactive and dynamic.",
-    images: [
-      "/Images/js/ph1.png",
-      "/Images/js/ph2.png",
-      "/Images/js/ph3.png",
-      "/Images/js/ph4.png",
-      "/Images/js/ph5.png",
-    ],
+    title: "Study of JavaScript",
+    description: "JavaScript learning notes",
+
+    images: generateImages("js", 300),
   },
 
   {
-    id: "Comming Soon ",
-    title: "Comming Soon as possible as ",
-    description:
-      "Comming Soon ",
-    images: [""],
+    id: "coming-soon",
+    title: "Coming Soon as possible",
+    description: "Coming Soon",
+    images: [],
   },
 
-  
   {
     id: "finish",
     title: "🎉 Congratulations! 🎉",

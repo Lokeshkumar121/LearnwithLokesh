@@ -2,47 +2,36 @@
 
 const resourcesData = [
   {
-    title: "Assignment 1",
+    title: "Assignment 1 Question ",
     type: "Assignment",
-    pdf: "/pdfs/css1.pdf",
+    pdf: "/pdfs/js1q.pdf",
   },
 
   {
-    title: "Assignment 2",
-    type: "Assignment",
-    pdf: "/pdfs/css2.pdf",
+    title: "Assignment 1 Answer",
+    type: "Answer",
+    pdf: "/pdfs/js1a.pdf",
   }, 
    {
-    title: "Assignment 3",
+    title: "Assignment 2 Questions",
     type: "Assignment",
-    pdf: "/pdfs/css3.pdf",
+    pdf: "/pdfs/js2q.pdf",
   }, 
    {
-    title: "Assignment 4",
-    type: "Assignment",
-    pdf: "/pdfs/css4.pdf",
+    title: "Assignment 2 Answer",
+    type: "Answer",
+    pdf: "/pdfs/js2a.pdf",
   }, 
    {
-    title: "Assignment 5",
+    title: "Assignment 3 Questions",
     type: "Assignment",
-    pdf: "/pdfs/css5.pdf",
+    pdf: "/pdfs/js3q.pdf",
   }, 
    {
-    title: "Assignment 6",
-    type: "Assignment",
-    pdf: "/pdfs/css6.pdf",
+    title: "Assignment 3 Answer",
+    type: "Answer",
+    pdf: "/pdfs/js3a.pdf",
   }, 
-  {
-    title: "Flexbox Cheatsheet",
-    type: "Understanding",
-    pdf: "/pdfs/flowchart.pdf",
-  },
-  {
-    title: "Inline Cheatsheet",
-    type: "Understanding",
-    pdf: "/pdfs/inlineblock.pdf",
-  },
-
   {
     title: "Interview Questions",
     type: "Questions",

@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import JsSection from "./JsSections";
-import { topics } from "./topics.js";
+
 import ResourcesSection from "./ResourcesSection";
 const Js = () => {
     const contentRef = useRef(null);
@@ -47,32 +47,6 @@ const Js = () => {
 
     return (
         <div className="bg-[#f8fafc] min-h-screen">
-
-            {/* ===== STICKY HEADER WITH TOPICS ===== */}
-            <div className="sticky top-[72px] z-40 bg-[#0f172a] shadow-lg">
-                <div className="mx-auto max-w-6xl px-6 md:px-8">
-                    <div className="flex items-center gap-3 py-3 overflow-x-auto scrollbar-hide">
-                        <span className="flex-shrink-0 text-[#38bdf8] text-base font-bold sm:text-lg">
-                            <svg className="h-5 w-5 sm:h-6 sm:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
-                        </span>
-                        <div className="flex-shrink-0 h-6 w-px bg-[#334155]"></div>
-                        {topics.map((topic) => (
-                            <button
-                                key={topic.id}
-                                onClick={() => scrollToSection(topic.id)}
-                                className={`flex-shrink-0 whitespace-nowrap rounded-lg px-3 py-1.5 text-[12px] font-medium transition-all duration-200 sm:px-4 sm:py-2 sm:text-[13px] ${activeSection === topic.id
-                                        ? "bg-[#38bdf8] text-[#0f172a]"
-                                        : "text-[#cbd5e1] hover:text-[#38bdf8] hover:bg-[#1e293b]"
-                                    }`}
-                            >
-                                {topic.label}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-            </div>
-
-
             {/* ===== CONTENT AREA ===== */}
             <div
                 ref={contentRef}
